@@ -1,0 +1,6 @@
+.DS_Store
+**/*.ffs
+**/*.log
+**/*.fm?.recover
+fme/Resources/Data/**
+fme/Resources/Temp/**
