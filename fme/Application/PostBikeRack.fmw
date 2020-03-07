@@ -17,14 +17,14 @@
 #!   DESCRIPTION=""
 #!   DESTINATION="NONE"
 #!   DESTINATION_ROUTING_FILE=""
-#!   DOC_EXTENTS="6304 1276"
-#!   DOC_TOP_LEFT="-450 -971"
+#!   DOC_EXTENTS="4657 1276"
+#!   DOC_TOP_LEFT="1197 -971"
 #!   END_PYTHON=""
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   FME_BUILD_NUM="19823"
-#!   FME_DOCUMENT_GUID="f2df9ba4-591f-4313-9d00-b10aa0706e9c"
-#!   FME_DOCUMENT_PRIORGUID="293a8dfd-1ad5-4630-814f-6fe42bdb4cc3,4f9a459e-7f25-41b2-a0bb-8367b0569b1d,cbb7bc33-9d31-4731-b056-2dd5d9a38b97,654485e2-3059-47e8-baca-19f5e028a70a,4c57395f-d91b-44a5-8975-e406e727e34f,8c3e85fa-b1ae-40e0-95b5-22afe2626fae,e8ad47cd-292d-444f-b90b-13f928983e25,045d2db4-22ed-4ba8-b537-3eb8b6b29192,d34ffdcd-8670-4a60-9caf-cf951866db19,12e677aa-1807-492f-831d-d0daeb71b26a,58d39eca-c799-4506-bb5a-a807672214a2,34f314db-bfb6-49d2-b787-ceacef538f99"
+#!   FME_DOCUMENT_GUID="7eebc863-0208-4cce-ae61-c978a0781bf1"
+#!   FME_DOCUMENT_PRIORGUID="293a8dfd-1ad5-4630-814f-6fe42bdb4cc3,4f9a459e-7f25-41b2-a0bb-8367b0569b1d,cbb7bc33-9d31-4731-b056-2dd5d9a38b97,654485e2-3059-47e8-baca-19f5e028a70a,4c57395f-d91b-44a5-8975-e406e727e34f,8c3e85fa-b1ae-40e0-95b5-22afe2626fae,e8ad47cd-292d-444f-b90b-13f928983e25,045d2db4-22ed-4ba8-b537-3eb8b6b29192,d34ffdcd-8670-4a60-9caf-cf951866db19,12e677aa-1807-492f-831d-d0daeb71b26a,58d39eca-c799-4506-bb5a-a807672214a2,34f314db-bfb6-49d2-b787-ceacef538f99,f2df9ba4-591f-4313-9d00-b10aa0706e9c,1bd1f022-99c2-4c1d-b6ff-1e967f30c563,11aa18ef-df30-4ee0-8112-09fe62fdd8ef"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -33,7 +33,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2019.2.3.1 (20200212 - Build 19823 - linux-x64)"
-#!   LAST_SAVE_DATE="2020-03-06T17:01:09"
+#!   LAST_SAVE_DATE="2020-03-06T18:12:02"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -71,7 +71,7 @@
 #!   WRITE_DEFS="false"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_geometry char(50) html_eol char(10) fme_type char(50) fme_feature_type char(50) fme_text_size number(31,15) fme_secondary_axis number(31,15) fme_color char(50) fme_text_string char(50) fme_fill_color char(50) fme_rotation number(31,15) fme_sweep_angle number(31,15) fme_start_angle number(31,15) fme_primary_axis number(31,15) fme_basename char(50) fme_dataset char(50)"
+#!   EXPOSABLE_ATTRS="fme_color char(50) fme_fill_color char(50) fme_rotation number(31,15) fme_text_size number(31,15) fme_geometry char(50) fme_text_string char(50) fme_start_angle number(31,15) fme_primary_axis number(31,15) fme_type char(50) fme_sweep_angle number(31,15) fme_feature_type char(50) html_eol char(10) fme_basename char(50) fme_dataset char(50) fme_secondary_axis number(31,15)"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -489,32 +489,33 @@
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="3"
 #! />
+#! <COMMENT
+#!   IDENTIFIER="25"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Noto Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Extract new bike rack feature attributes from workspace parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="1950 150"
+#!   TOP_LEFT="1950 150"
+#!   BOTTOM_RIGHT="2414 149"
+#!   BOUNDING_RECT="1950 150 464 1"
+#!   ORDER="500000000000086"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="1,1,0.95686274509803926,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="4"
+#! />
 #! </COMMENTS>
 #! <CONSTANTS>
 #! </CONSTANTS>
 #! <BOOKMARKS>
-#! <BOOKMARK
-#!   IDENTIFIER="32"
-#!   NAME="Extract new bike rack feature from parameters."
-#!   DESCRIPTION=""
-#!   TOP_LEFT="211.99999999999989 -190"
-#!   ORDER="500000000000077"
-#!   PALETTE_COLOR="Color1"
-#!   BOTTOM_RIGHT="2370.0010682577295 -526"
-#!   BOUNDING_RECT="211.99999999999989 -190 2158.0010682577295 336"
-#!   STICKY="true"
-#!   COLOUR="0.59999999999999998,0.80000000000000004,0.80000000000000004,1"
-#!   CONTENTS="22 24 21 4 25 "
-#! >
-#! </BOOKMARK>
 #! </BOOKMARKS>
 #! <TRANSFORMERS>
 #! <TRANSFORMER
 #!   IDENTIFIER="2"
 #!   TYPE="Creator"
 #!   VERSION="5"
-#!   POSITION="-450 -300"
-#!   BOUNDING_RECT="-450 -300 430 71"
+#!   POSITION="1196.9999699997002 -300"
+#!   BOUNDING_RECT="1196.9999699997002 -300 430 71"
 #!   ORDER="500000000000001"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -536,7 +537,7 @@
 #! <TRANSFORMER
 #!   IDENTIFIER="3"
 #!   TYPE="BikeRackAdder"
-#!   VERSION="3"
+#!   VERSION="4"
 #!   POSITION="2700 -300"
 #!   BOUNDING_RECT="2700 -300 430 71"
 #!   ORDER="500000000000002"
@@ -563,6 +564,8 @@
 #!     <XFORM_ATTR ATTR_NAME="description" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="capacity" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="host" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="longitude" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="latitude" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="_fme_validation_message_list{}" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="_fme_validation_message_list{}.validator_name" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="_fme_validation_message_list{}.calling_module" IS_USER_CREATED="false" FEAT_INDEX="2" />
@@ -570,6 +573,8 @@
 #!     <XFORM_PARM PARM_NAME="DESCRIPTION" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;description&lt;closeparen&gt;"/>
 #!     <XFORM_PARM PARM_NAME="Dataset_POSTGIS" PARM_VALUE="bikeracks-development"/>
 #!     <XFORM_PARM PARM_NAME="HOST" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;host&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="LATITUDE" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;latitude&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="LONGITUDE" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;longitude&lt;closeparen&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TITLE" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;title&lt;closeparen&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="BikeRackAdder"/>
@@ -579,8 +584,8 @@
 #!   IDENTIFIER="4"
 #!   TYPE="ParameterFetcher"
 #!   VERSION="4"
-#!   POSITION="299.99999999999989 -300"
-#!   BOUNDING_RECT="299.99999999999989 -300 454 71"
+#!   POSITION="1950 -300"
+#!   BOUNDING_RECT="1950 -300 454 71"
 #!   ORDER="500000000000004"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -592,7 +597,9 @@
 #!     <XFORM_ATTR ATTR_NAME="description" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="capacity" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="host" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="title $(Title) description $(Description) capacity $(Capacity) host $(Host)"/>
+#!     <XFORM_ATTR ATTR_NAME="longitude" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="latitude" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="title $(Title) description $(Description) capacity $(Capacity) host $(Host) longitude $(Longitude) latitude $(Latitude)"/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ParameterFetcher"/>
@@ -663,6 +670,8 @@
 #!     <XFORM_ATTR ATTR_NAME="description" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="capacity" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="host" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="longitude" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="latitude" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_fme_validation_message_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_fme_validation_message_list{}.validator_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_fme_validation_message_list{}.calling_module" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -672,6 +681,8 @@
 #!     <XFORM_ATTR ATTR_NAME="description" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="capacity" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="host" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="longitude" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="latitude" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_fme_validation_message_list{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_fme_validation_message_list{}.validator_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_fme_validation_message_list{}.calling_module" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -686,6 +697,8 @@
 #!     <XFORM_ATTR ATTR_NAME="description" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="capacity" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="host" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="longitude" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="latitude" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="_fme_validation_message_list{}" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="_fme_validation_message_list{}.validator_name" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="_fme_validation_message_list{}.calling_module" IS_USER_CREATED="false" FEAT_INDEX="2" />
@@ -693,64 +706,6 @@
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeValidationHTMLReportGenerator"/>
 #!     <XFORM_PARM PARM_NAME="_FEATURE_ID" PARM_VALUE="N&lt;solidus&gt;A"/>
 #!     <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#!   IDENTIFIER="21"
-#!   TYPE="VertexCreator"
-#!   VERSION="3"
-#!   POSITION="1050 -300"
-#!   BOUNDING_RECT="1050 -300 454 71"
-#!   ORDER="500000000000070"
-#!   PARMS_EDITED="true"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="19823"
-#! >
-#!     <OUTPUT_FEAT NAME="OUTPUT"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="title" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="description" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="capacity" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="host" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
-#!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="title" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="description" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="capacity" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="host" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="ADVANCED_PARAMETERS" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
-#!     <XFORM_PARM PARM_NAME="INDEX" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="MEASURE_TYPE" PARM_VALUE="Continuous"/>
-#!     <XFORM_PARM PARM_NAME="MISSING_VAL_MODE" PARM_VALUE="None (Drop Values)"/>
-#!     <XFORM_PARM PARM_NAME="MODE_NAME" PARM_VALUE="Add Point"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="VertexCreator"/>
-#!     <XFORM_PARM PARM_NAME="XVAL" PARM_VALUE="$(Longitude)"/>
-#!     <XFORM_PARM PARM_NAME="YVAL" PARM_VALUE="$(Latitude)"/>
-#!     <XFORM_PARM PARM_NAME="ZVAL" PARM_VALUE=""/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#!   IDENTIFIER="24"
-#!   TYPE="CoordinateSystemSetter"
-#!   VERSION="0"
-#!   POSITION="1800 -300"
-#!   BOUNDING_RECT="1800 -300 520.00106825772946 71"
-#!   ORDER="500000000000071"
-#!   PARMS_EDITED="true"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="19823"
-#! >
-#!     <OUTPUT_FEAT NAME="OUTPUT"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="title" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="description" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="capacity" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="host" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE="EPSG:4326"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="CoordinateSystemSetter"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="27"
@@ -807,6 +762,8 @@
 #!     <XFORM_ATTR ATTR_NAME="description" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="capacity" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="host" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="longitude" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="latitude" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_fme_validation_message_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_fme_validation_message_list{}.validator_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_fme_validation_message_list{}.calling_module" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -819,6 +776,8 @@
 #!     <XFORM_ATTR ATTR_NAME="description" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="capacity" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="host" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="longitude" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="latitude" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_fme_validation_message_list{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_fme_validation_message_list{}.validator_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_fme_validation_message_list{}.calling_module" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -859,11 +818,11 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="22"
+#!   IDENTIFIER="40"
 #!   SOURCE_NODE="4"
-#!   TARGET_NODE="21"
+#!   TARGET_NODE="3"
 #!   SOURCE_PORT_DESC="fo 0 OUTPUT"
-#!   TARGET_PORT_DESC="fi 0 "
+#!   TARGET_PORT_DESC="fi 0 Input"
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
@@ -903,33 +862,11 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="25"
-#!   SOURCE_NODE="21"
-#!   TARGET_NODE="24"
-#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
 #!   IDENTIFIER="31"
 #!   SOURCE_NODE="23"
 #!   TARGET_NODE="7"
 #!   SOURCE_PORT_DESC="fo 0 PASSED"
 #!   TARGET_PORT_DESC="-1"
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="26"
-#!   SOURCE_NODE="24"
-#!   TARGET_NODE="3"
-#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
-#!   TARGET_PORT_DESC="fi 0 Input"
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
@@ -1111,14 +1048,10 @@ FACTORY_DEF * BranchingFactory   FACTORY_NAME "Creator_CREATED Brancher -1 5"   
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory   FACTORY_NAME "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   INPUT FEATURE_TYPE *  OUTPUT FEATURE_TYPE *
 # -------------------------------------------------------------------------
-Tcl2 proc ParameterFetcher_doFetch {} {    foreach {name val} {"title {$(Title$encode)} description {$(Description)} capacity {$(Capacity$encode)} host {$(Host$encode)}"} {         if { [string match {*<at>*} $val] == 1 } {             set val [FME_Execute EvaluateExpression {STRING} $val {ParameterFetcher}];         } elseif {[string match {*FME_CONDITIONAL*} $val] == 1} {             set val [FME_Execute EvaluateExpression {STRING} $val {ParameterFetcher}];         } else {             set val [FME_DecodeTextOrAttr $val];         };       FME_SetAttribute [FME_DecodeText $name] $val    } }
+Tcl2 proc ParameterFetcher_doFetch {} {    foreach {name val} {"title {$(Title$encode)} description {$(Description)} capacity {$(Capacity$encode)} host {$(Host$encode)} longitude {$(Longitude$encode)} latitude {$(Latitude$encode)}"} {         if { [string match {*<at>*} $val] == 1 } {             set val [FME_Execute EvaluateExpression {STRING} $val {ParameterFetcher}];         } elseif {[string match {*FME_CONDITIONAL*} $val] == 1} {             set val [FME_Execute EvaluateExpression {STRING} $val {ParameterFetcher}];         } else {             set val [FME_DecodeTextOrAttr $val];         };       FME_SetAttribute [FME_DecodeText $name] $val    } }
 FACTORY_DEF * TeeFactory    FACTORY_NAME ParameterFetcher    INPUT  FEATURE_TYPE Creator_CREATED    OUTPUT FEATURE_TYPE ParameterFetcher_OUTPUT         @Tcl2(ParameterFetcher_doFetch)
 # -------------------------------------------------------------------------
-FACTORY_DEF * VertexCreatorFactory    FACTORY_NAME VertexCreator    INPUT  FEATURE_TYPE ParameterFetcher_OUTPUT    MODE ADD    INDEX "<Unused>"    CONTINUE_ON_ERROR YES    XVAL "@EvaluateExpression(FDIV,FLOAT,$(Longitude$encode),VertexCreator)"    YVAL "@EvaluateExpression(FDIV,FLOAT,$(Latitude$encode),VertexCreator)"    ZVAL ""    USE_EXISTING_Z YES    MISSING_VAL_MODE REMOVE_NANS    COMPUTE_MEASURES_MODE CONTINUOUS    OUTPUT OUTPUT FEATURE_TYPE VertexCreator_OUTPUT
-# -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory    FACTORY_NAME CoordinateSystemSetter    INPUT  FEATURE_TYPE VertexCreator_OUTPUT    OUTPUT FEATURE_TYPE CoordinateSystemSetter_OUTPUT         @CoordSys("EPSG:4326")
-# -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory   FACTORY_NAME "BikeRackAdder Input Input Collector"   INPUT FEATURE_TYPE CoordinateSystemSetter_OUTPUT   OUTPUT FEATURE_TYPE BikeRackAdder_Input
+FACTORY_DEF * TeeFactory   FACTORY_NAME "BikeRackAdder Input Input Collector"   INPUT FEATURE_TYPE ParameterFetcher_OUTPUT   OUTPUT FEATURE_TYPE BikeRackAdder_Input
 MACRO BikeRackAdder_WORKSPACE_NAME BikeRackAdder
 MACRO $(BikeRackAdder_WORKSPACE_NAME)_XFORMER_NAME BikeRackAdder
 MACRO $(BikeRackAdder_WORKSPACE_NAME)_TRANSFORMER_GROUP 
@@ -1128,7 +1061,9 @@ MACRO $(BikeRackAdder_WORKSPACE_NAME)_TITLE <at>Value<openparen>title<closeparen
 MACRO $(BikeRackAdder_WORKSPACE_NAME)_DESCRIPTION <at>Value<openparen>description<closeparen>
 MACRO $(BikeRackAdder_WORKSPACE_NAME)_CAPACITY <at>Value<openparen>capacity<closeparen>
 MACRO $(BikeRackAdder_WORKSPACE_NAME)_HOST <at>Value<openparen>host<closeparen>
-INCLUDE_CUSTOM_TRANSFORMER_VER BikeRackAdder:3
+MACRO $(BikeRackAdder_WORKSPACE_NAME)_LONGITUDE <at>Value<openparen>longitude<closeparen>
+MACRO $(BikeRackAdder_WORKSPACE_NAME)_LATITUDE <at>Value<openparen>latitude<closeparen>
+INCLUDE_CUSTOM_TRANSFORMER_VER BikeRackAdder:4
 FACTORY_DEF * TeeFactory   FACTORY_NAME "BikeRackAdder BikeRack Output Renamer/Nuker"   INPUT FEATURE_TYPE BikeRackAdder_BikeRack   OUTPUT FEATURE_TYPE BikeRackAdder_BikeRack
 FACTORY_DEF * TeeFactory   FACTORY_NAME "BikeRackAdder Summary Output Renamer/Nuker"   INPUT FEATURE_TYPE BikeRackAdder_Summary   OUTPUT FEATURE_TYPE BikeRackAdder_Summary
 FACTORY_DEF * TeeFactory   FACTORY_NAME "BikeRackAdder <INVALID> Output Renamer/Nuker"   INPUT FEATURE_TYPE BikeRackAdder_<INVALID>   OUTPUT FEATURE_TYPE BikeRackAdder_<INVALID>
