@@ -23,8 +23,8 @@
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   FME_BUILD_NUM="19823"
-#!   FME_DOCUMENT_GUID="34f314db-bfb6-49d2-b787-ceacef538f99"
-#!   FME_DOCUMENT_PRIORGUID="293a8dfd-1ad5-4630-814f-6fe42bdb4cc3,4f9a459e-7f25-41b2-a0bb-8367b0569b1d,cbb7bc33-9d31-4731-b056-2dd5d9a38b97,654485e2-3059-47e8-baca-19f5e028a70a,4c57395f-d91b-44a5-8975-e406e727e34f,8c3e85fa-b1ae-40e0-95b5-22afe2626fae,e8ad47cd-292d-444f-b90b-13f928983e25,045d2db4-22ed-4ba8-b537-3eb8b6b29192,d34ffdcd-8670-4a60-9caf-cf951866db19,12e677aa-1807-492f-831d-d0daeb71b26a,58d39eca-c799-4506-bb5a-a807672214a2"
+#!   FME_DOCUMENT_GUID="f2df9ba4-591f-4313-9d00-b10aa0706e9c"
+#!   FME_DOCUMENT_PRIORGUID="293a8dfd-1ad5-4630-814f-6fe42bdb4cc3,4f9a459e-7f25-41b2-a0bb-8367b0569b1d,cbb7bc33-9d31-4731-b056-2dd5d9a38b97,654485e2-3059-47e8-baca-19f5e028a70a,4c57395f-d91b-44a5-8975-e406e727e34f,8c3e85fa-b1ae-40e0-95b5-22afe2626fae,e8ad47cd-292d-444f-b90b-13f928983e25,045d2db4-22ed-4ba8-b537-3eb8b6b29192,d34ffdcd-8670-4a60-9caf-cf951866db19,12e677aa-1807-492f-831d-d0daeb71b26a,58d39eca-c799-4506-bb5a-a807672214a2,34f314db-bfb6-49d2-b787-ceacef538f99"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -33,7 +33,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2019.2.3.1 (20200212 - Build 19823 - linux-x64)"
-#!   LAST_SAVE_DATE="2020-03-06T13:34:13"
+#!   LAST_SAVE_DATE="2020-03-06T17:01:09"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -52,7 +52,7 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-1089.01 798.008"
+#!   VIEW_POSITION="-1092.01 798.008"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="100"
@@ -71,7 +71,7 @@
 #!   WRITE_DEFS="false"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_sweep_angle number(31,15) fme_primary_axis number(31,15) fme_fill_color char(50) fme_type char(50) fme_feature_type char(50) fme_text_string char(50) fme_text_size number(31,15) fme_secondary_axis number(31,15) fme_dataset char(50) fme_geometry char(50) html_eol char(10) fme_color char(50) fme_rotation number(31,15) fme_basename char(50) fme_start_angle number(31,15)"
+#!   EXPOSABLE_ATTRS="fme_geometry char(50) html_eol char(10) fme_type char(50) fme_feature_type char(50) fme_text_size number(31,15) fme_secondary_axis number(31,15) fme_color char(50) fme_text_string char(50) fme_fill_color char(50) fme_rotation number(31,15) fme_sweep_angle number(31,15) fme_start_angle number(31,15) fme_primary_axis number(31,15) fme_basename char(50) fme_dataset char(50)"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -504,7 +504,7 @@
 #!   BOUNDING_RECT="211.99999999999989 -190 2158.0010682577295 336"
 #!   STICKY="true"
 #!   COLOUR="0.59999999999999998,0.80000000000000004,0.80000000000000004,1"
-#!   CONTENTS="24 25 4 22 21 "
+#!   CONTENTS="22 24 21 4 25 "
 #! >
 #! </BOOKMARK>
 #! </BOOKMARKS>
@@ -646,7 +646,7 @@
 #! <TRANSFORMER
 #!   IDENTIFIER="18"
 #!   TYPE="AttributeValidationHTMLReportGenerator"
-#!   VERSION="4"
+#!   VERSION="5"
 #!   POSITION="3450 -900"
 #!   BOUNDING_RECT="3450 -900 818.00106825772946 71"
 #!   ORDER="500000000000069"
@@ -656,7 +656,6 @@
 #! >
 #!     <OUTPUT_FEAT NAME="Output"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="_dummy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_mgs_calling_module" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_no_validation_errors" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -667,10 +666,7 @@
 #!     <XFORM_ATTR ATTR_NAME="_fme_validation_message_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_fme_validation_message_list{}.validator_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_fme_validation_message_list{}.calling_module" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_feature_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_mgs_validation_message" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_mgs_validator_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <OUTPUT_FEAT NAME="&lt;CLEAN&gt;"/>
+#!     <OUTPUT_FEAT NAME="&lt;DIRTY&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
 #!     <XFORM_ATTR ATTR_NAME="title" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="description" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -683,9 +679,9 @@
 #!     <XFORM_ATTR ATTR_NAME="_mgs_validation_message" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_mgs_validator_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_mgs_calling_module" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="no_features" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <OUTPUT_FEAT NAME="&lt;DIRTY&gt;"/>
+#!     <OUTPUT_FEAT NAME="&lt;CLEAN&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <XFORM_ATTR ATTR_NAME="_no_validation_errors" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="title" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="description" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="capacity" IS_USER_CREATED="false" FEAT_INDEX="2" />
@@ -693,13 +689,9 @@
 #!     <XFORM_ATTR ATTR_NAME="_fme_validation_message_list{}" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="_fme_validation_message_list{}.validator_name" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="_fme_validation_message_list{}.calling_module" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="_feature_id" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="_mgs_validation_message" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="_mgs_validator_name" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="_mgs_calling_module" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeValidationHTMLReportGenerator"/>
-#!     <XFORM_PARM PARM_NAME="_FEATURE_ID" PARM_VALUE="id"/>
+#!     <XFORM_PARM PARM_NAME="_FEATURE_ID" PARM_VALUE="N&lt;solidus&gt;A"/>
 #!     <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -808,7 +800,6 @@
 #! >
 #!     <OUTPUT_FEAT NAME="PASSED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="_dummy" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_mgs_calling_module" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_no_validation_errors" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -819,12 +810,8 @@
 #!     <XFORM_ATTR ATTR_NAME="_fme_validation_message_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_fme_validation_message_list{}.validator_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_fme_validation_message_list{}.calling_module" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_feature_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_mgs_validation_message" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_mgs_validator_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="FAILED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="_dummy" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_mgs_calling_module" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_no_validation_errors" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -835,9 +822,6 @@
 #!     <XFORM_ATTR ATTR_NAME="_fme_validation_message_list{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_fme_validation_message_list{}.validator_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_fme_validation_message_list{}.calling_module" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_feature_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_mgs_validation_message" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_mgs_validator_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
 #!     <XFORM_PARM PARM_NAME="COMPOSITE_MSG" PARM_VALUE=""/>
@@ -1154,11 +1138,11 @@ MACRO AttributeValidationHTMLReportGenerator_WORKSPACE_NAME AttributeValidationH
 MACRO $(AttributeValidationHTMLReportGenerator_WORKSPACE_NAME)_XFORMER_NAME AttributeValidationHTMLReportGenerator
 MACRO $(AttributeValidationHTMLReportGenerator_WORKSPACE_NAME)_TRANSFORMER_GROUP 
 MACRO $(AttributeValidationHTMLReportGenerator_WORKSPACE_NAME)___COMPOUND_PARAMETERS 
-MACRO $(AttributeValidationHTMLReportGenerator_WORKSPACE_NAME)__FEATURE_ID id
-INCLUDE_CUSTOM_TRANSFORMER_VER AttributeValidationHTMLReportGenerator:4
+MACRO $(AttributeValidationHTMLReportGenerator_WORKSPACE_NAME)__FEATURE_ID N<solidus>A
+INCLUDE_CUSTOM_TRANSFORMER_VER AttributeValidationHTMLReportGenerator:5
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeValidationHTMLReportGenerator Output Output Renamer/Nuker"   INPUT FEATURE_TYPE AttributeValidationHTMLReportGenerator_Output   OUTPUT FEATURE_TYPE AttributeValidationHTMLReportGenerator_Output
-FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeValidationHTMLReportGenerator <CLEAN> Output Renamer/Nuker"   INPUT FEATURE_TYPE AttributeValidationHTMLReportGenerator_<CLEAN>
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeValidationHTMLReportGenerator <DIRTY> Output Renamer/Nuker"   INPUT FEATURE_TYPE AttributeValidationHTMLReportGenerator_<DIRTY>
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeValidationHTMLReportGenerator <CLEAN> Output Renamer/Nuker"   INPUT FEATURE_TYPE AttributeValidationHTMLReportGenerator_<CLEAN>
 # -------------------------------------------------------------------------
 FACTORY_DEF * TestFactory    FACTORY_NAME ValidationErrorsTester    INPUT  FEATURE_TYPE AttributeValidationHTMLReportGenerator_Output    TEST _no_validation_errors NOT_ATTRIBUTE_HAS_A_VALUE "" ENCODED    BOOLEAN_OPERATOR OR    COMPOSITE_TEST_EXPR "1"    FEATURE_TABLE_SHIM_SUPPORT Yes    PRESERVE_FEATURE_ORDER PER_OUTPUT_PORT    OUTPUT PASSED FEATURE_TYPE ValidationErrorsTester_PASSED
 # -------------------------------------------------------------------------
