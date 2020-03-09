@@ -1,4 +1,5 @@
 .DS_Store
+.directory
 **/*.ffs
 **/*.log
 **/*.fm?.recover
