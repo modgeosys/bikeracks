@@ -6,7 +6,6 @@
 #              --Description "Description"
 #              --Capacity "10"
 #              --Host "Host"
-#              --DestDataset_HTML "/home/kweller/Projects/mg/bikeracks/fme/Resources/Temp/PostBikeRackOutput.html"
 #              --Longitude "-104.5484347"
 #              --Latitude "39.5484347"
 #    
@@ -23,8 +22,8 @@
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   FME_BUILD_NUM="19823"
-#!   FME_DOCUMENT_GUID="7eebc863-0208-4cce-ae61-c978a0781bf1"
-#!   FME_DOCUMENT_PRIORGUID="293a8dfd-1ad5-4630-814f-6fe42bdb4cc3,4f9a459e-7f25-41b2-a0bb-8367b0569b1d,cbb7bc33-9d31-4731-b056-2dd5d9a38b97,654485e2-3059-47e8-baca-19f5e028a70a,4c57395f-d91b-44a5-8975-e406e727e34f,8c3e85fa-b1ae-40e0-95b5-22afe2626fae,e8ad47cd-292d-444f-b90b-13f928983e25,045d2db4-22ed-4ba8-b537-3eb8b6b29192,d34ffdcd-8670-4a60-9caf-cf951866db19,12e677aa-1807-492f-831d-d0daeb71b26a,58d39eca-c799-4506-bb5a-a807672214a2,34f314db-bfb6-49d2-b787-ceacef538f99,f2df9ba4-591f-4313-9d00-b10aa0706e9c,1bd1f022-99c2-4c1d-b6ff-1e967f30c563,11aa18ef-df30-4ee0-8112-09fe62fdd8ef"
+#!   FME_DOCUMENT_GUID="e3f31a6f-f619-4e6e-a1e6-74d47d829622"
+#!   FME_DOCUMENT_PRIORGUID="293a8dfd-1ad5-4630-814f-6fe42bdb4cc3,4f9a459e-7f25-41b2-a0bb-8367b0569b1d,cbb7bc33-9d31-4731-b056-2dd5d9a38b97,654485e2-3059-47e8-baca-19f5e028a70a,4c57395f-d91b-44a5-8975-e406e727e34f,8c3e85fa-b1ae-40e0-95b5-22afe2626fae,e8ad47cd-292d-444f-b90b-13f928983e25,045d2db4-22ed-4ba8-b537-3eb8b6b29192,d34ffdcd-8670-4a60-9caf-cf951866db19,12e677aa-1807-492f-831d-d0daeb71b26a,58d39eca-c799-4506-bb5a-a807672214a2,34f314db-bfb6-49d2-b787-ceacef538f99,f2df9ba4-591f-4313-9d00-b10aa0706e9c,1bd1f022-99c2-4c1d-b6ff-1e967f30c563,11aa18ef-df30-4ee0-8112-09fe62fdd8ef,7eebc863-0208-4cce-ae61-c978a0781bf1"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -33,7 +32,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2019.2.3.1 (20200212 - Build 19823 - linux-x64)"
-#!   LAST_SAVE_DATE="2020-03-06T18:12:02"
+#!   LAST_SAVE_DATE="2020-03-10T15:29:21"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -52,7 +51,7 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-1092.01 798.008"
+#!   VIEW_POSITION="-1089.01 798.008"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="100"
@@ -71,7 +70,7 @@
 #!   WRITE_DEFS="false"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_color char(50) fme_fill_color char(50) fme_rotation number(31,15) fme_text_size number(31,15) fme_geometry char(50) fme_text_string char(50) fme_start_angle number(31,15) fme_primary_axis number(31,15) fme_type char(50) fme_sweep_angle number(31,15) fme_feature_type char(50) html_eol char(10) fme_basename char(50) fme_dataset char(50) fme_secondary_axis number(31,15)"
+#!   EXPOSABLE_ATTRS="fme_start_angle number(31,15) fme_color char(50) fme_geometry char(50) fme_fill_color char(50) fme_text_string char(50) fme_type char(50) fme_feature_type char(50) fme_sweep_angle number(31,15) fme_secondary_axis number(31,15) fme_rotation number(31,15) fme_text_size number(31,15) fme_primary_axis number(31,15) html_eol char(10) fme_basename char(50) fme_dataset char(50)"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -368,6 +367,103 @@
 #! </FEATURE_TYPE>
 #! </FEATURE_TYPES>
 #! <FMESERVER>
+#! <SERVICES>
+#! <SERVICE
+#!   NAME="fmejobsubmitter"
+#! >
+#! <PROPERTIES>
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="ADVANCED"
+#!   VALUE=""
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="FAILURE_TOPICS"
+#!   VALUE=""
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="HTTP_DATASET"
+#!   VALUE=""
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="NOTIFICATION_WRITER"
+#!   VALUE=""
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="SUCCESS_TOPICS"
+#!   VALUE=""
+#! />
+#! </PROPERTIES>
+#! </SERVICE>
+#! </SERVICES>
+#! <REPOSITORY
+#!   NAME="BikeRacks"
+#! />
+#! <ITEM
+#!   NAME="PostBikeRack.fmw"
+#! />
+#! <MODIFICATIONS>
+#! <MODIFICATION
+#!   UID=":DatasetMgr_HTML_1:DestDataset_HTML_1"
+#!   VALUE="$(DestDataset_HTML)"
+#! />
+#! <MODIFICATION
+#!   UID=":GlobalParameterMgr:DestDataset_HTML"
+#!   VALUE="/home/kweller/Projects/mg/bikeracks/fme/Resources/Temp/PostBikeRackOutput.html"
+#! />
+#! <MODIFICATION
+#!   UID=":GlobalParameterMgr:FME_SERVER_DEST_DIR"
+#!   VALUE=""
+#! />
+#! <MODIFICATION
+#!   UID=":GlobalParameterMgr:FME_SHAREDRESOURCE_BACKUP"
+#!   VALUE=""
+#! />
+#! <MODIFICATION
+#!   UID=":GlobalParameterMgr:FME_SHAREDRESOURCE_DASHBOARD"
+#!   VALUE=""
+#! />
+#! <MODIFICATION
+#!   UID=":GlobalParameterMgr:FME_SHAREDRESOURCE_DATA"
+#!   VALUE=""
+#! />
+#! <MODIFICATION
+#!   UID=":GlobalParameterMgr:FME_SHAREDRESOURCE_ENGINE"
+#!   VALUE=""
+#! />
+#! <MODIFICATION
+#!   UID=":GlobalParameterMgr:FME_SHAREDRESOURCE_LOG"
+#!   VALUE=""
+#! />
+#! <MODIFICATION
+#!   UID=":GlobalParameterMgr:FME_SHAREDRESOURCE_SYSTEM"
+#!   VALUE=""
+#! />
+#! <MODIFICATION
+#!   UID=":GlobalParameterMgr:FME_SHAREDRESOURCE_TEMP"
+#!   VALUE=""
+#! />
+#! <MODIFICATION
+#!   UID=":GlobalParameterMgr:FME_TOPIC_MESSAGE"
+#!   VALUE=""
+#! />
+#! <MODIFICATION
+#!   UID=":WBDoc:DESTINATION_ROUTING_FILE"
+#!   VALUE=""
+#! />
+#! <MODIFICATION
+#!   UID=":WBDoc:LOG_FILE"
+#!   VALUE=""
+#! />
+#! <MODIFICATION
+#!   UID=":WBDoc:SOURCE_ROUTING_FILE"
+#!   VALUE=""
+#! />
+#! </MODIFICATIONS>
 #! <WRITER_DATASETS>
 #! <DATASET 
 #!   NAME="HTML_1"
@@ -398,11 +494,6 @@
 #!   IS_STAND_ALONE="true"
 #! />
 #! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI FILENAME DestDataset_HTML HTML&lt;space&gt;Files(*.html)|*.html Destination Html File:"
-#!   DEFAULT_VALUE="/home/kweller/Projects/mg/bikeracks/fme/Resources/Temp/PostBikeRackOutput.html"
-#!   IS_STAND_ALONE="false"
-#! />
-#! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI RANGE_SLIDER_OR_ATTR Longitude &quot;RANGE:[-180,180]%PRECISION:7&quot; Longitude:"
 #!   DEFAULT_VALUE="-104.5484347"
 #!   IS_STAND_ALONE="true"
@@ -411,6 +502,21 @@
 #!   GUI_LINE="GUI RANGE_SLIDER_OR_ATTR Latitude &quot;RANGE:[-90,90]%PRECISION:7&quot; Latitude:"
 #!   DEFAULT_VALUE="39.5484347"
 #!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI IGNORE FILENAME DestDataset_HTML HTML&lt;space&gt;Files(*.html)|*.html Destination Html File:"
+#!   DEFAULT_VALUE="$(FME_SHAREDRESOURCE_TEMP)/PostBikeRackOutput.html"
+#!   IS_STAND_ALONE="false"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI IGNORE OPTIONAL DIRNAME_SRC FME_SHAREDRESOURCE_DATA FME Server Data Directory:"
+#!   DEFAULT_VALUE="/home/kweller/Projects/mg/fme-components/fme/Resources/Data/"
+#!   IS_STAND_ALONE="FME_SERVER"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI IGNORE OPTIONAL DIRNAME_SRC FME_SHAREDRESOURCE_TEMP FME Server Temporary Resource Directory:"
+#!   DEFAULT_VALUE="/home/kweller/Projects/mg/fme-components/fme/Resources/Temp/"
+#!   IS_STAND_ALONE="FME_SERVER"
 #! />
 #! </GLOBAL_PARAMETERS>
 #! <COMMENTS>
@@ -918,6 +1024,8 @@
 
 FME_PYTHON_VERSION 36
 GUI IGNORE DestDataset_HTML_1
+DEFAULT_MACRO FME_SHAREDRESOURCE_TEMP /home/kweller/Projects/mg/fme-components/fme/Resources/Temp/
+GUI IGNORE OPTIONAL DIRNAME_SRC FME_SHAREDRESOURCE_TEMP FME Server Temporary Resource Directory:
 DEFAULT_MACRO Title Title
 GUI TEXT Title Title:
 DEFAULT_MACRO Description Description
@@ -926,19 +1034,21 @@ DEFAULT_MACRO Capacity 10
 GUI RANGE_SLIDER Capacity "RANGE:[1,50]%PRECISION:0" Capacity:
 DEFAULT_MACRO Host Host
 GUI TEXT Host Host:
-DEFAULT_MACRO DestDataset_HTML /home/kweller/Projects/mg/bikeracks/fme/Resources/Temp/PostBikeRackOutput.html
-GUI FILENAME DestDataset_HTML HTML<space>Files(*.html)|*.html Destination Html File:
 DEFAULT_MACRO Longitude -104.5484347
 GUI RANGE_SLIDER Longitude "RANGE:[-180,180]%PRECISION:7" Longitude:
 DEFAULT_MACRO Latitude 39.5484347
 GUI RANGE_SLIDER Latitude "RANGE:[-90,90]%PRECISION:7" Latitude:
+DEFAULT_MACRO DestDataset_HTML $(FME_SHAREDRESOURCE_TEMP)/PostBikeRackOutput.html
+GUI IGNORE FILENAME DestDataset_HTML HTML<space>Files(*.html)|*.html Destination Html File:
+DEFAULT_MACRO FME_SHAREDRESOURCE_DATA /home/kweller/Projects/mg/fme-components/fme/Resources/Data/
+GUI IGNORE OPTIONAL DIRNAME_SRC FME_SHAREDRESOURCE_DATA FME Server Data Directory:
 INCLUDE [ if {{$(Title)} == {}} { puts_real {Parameter 'Title' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(Description)} == {}} { puts_real {Parameter 'Description' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(Capacity)} == {}} { puts_real {Parameter 'Capacity' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(Host)} == {}} { puts_real {Parameter 'Host' must be given a value.}; exit 1; }; ]
-INCLUDE [ if {{$(DestDataset_HTML)} == {}} { puts_real {Parameter 'DestDataset_HTML' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(Longitude)} == {}} { puts_real {Parameter 'Longitude' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(Latitude)} == {}} { puts_real {Parameter 'Latitude' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(DestDataset_HTML)} == {}} { puts_real {Parameter 'DestDataset_HTML' must be given a value.}; exit 1; }; ]
 #! START_HEADER
 #! START_WB_HEADER
 READER_TYPE MULTI_READER
